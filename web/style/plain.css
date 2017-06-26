@@ -1,0 +1,149 @@
+body {
+    font-family: "Open Sans","Tahoma", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;  /* bg pic will stretch when window is resized */
+    background-color: lightgray; /* select color that matches your bg pic */
+    background-position: center;
+    background-attachment: fixed;
+}
+#container {
+    width:85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin:auto;  /* this means center the container div (itself, not its contents) */
+    color: white;
+    font-size: 14px;
+    min-width:400px;
+}
+#title {
+    text-shadow: 5px 5px 6px black;
+    text-align: center;
+    font-family: "Lobster","Arial";
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 18px;
+    overflow: hidden;
+}
+#nav {
+    width: 100%;
+    padding: 10px;
+}
+.tab {
+    border:2px solid black;
+    border-radius:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: whitesmoke;
+    font-size:100%;
+    font-weight: bold;
+    text-align:center;
+    color:black;
+    width:10%;
+    float:left;
+    max-width: 100%;
+    min-width:50px; /* tab will only get this narrow when user sizes down window */
+}
+.tab:hover   
+{
+    background-color: #FFF9D8; 
+    border-radius: 10px;
+}
+.tab:active {
+    background-color: blue;
+}
+.lab:link {
+    border:2px solid black;
+    border-radius:10px;
+    padding:5px;
+    background-color: whitesmoke;
+    font-size:100%;
+    font-weight: bold;
+    color:black;
+    width:12%;
+    max-width: 100%;
+    min-width:50px; /* tab will only get this narrow when user sizes down window  */
+    text-align: center;
+} 
+.newLine {
+    clear:both;
+}
+#text {
+    text-shadow: 5px 5px 6px black;
+    padding-left:5px;
+    padding-right:15px;
+    padding-bottom: 10px;
+    overflow:hidden;
+}
+#content {
+    padding-left:5px;
+    padding-right:15px;
+    padding-bottom: 10px;
+    border-radius:10px;
+    background-color: rgba(000,000,000,0.5);
+    overflow:hidden;
+}
+#footer {
+    padding-top: 15px;
+    text-align:center;
+    font-family: Times New Roman, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#image {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    max-width: 100%;
+    border-radius:10px;
+}
+.resultSetFormat {
+    background-color:aliceblue;
+}
+.resultSetFormat th {
+    color: black; 
+    border: outset yellow; 
+    background-color:powderblue; 
+    padding:5px;
+}
+.resultSetFormat td {
+    color: black; 
+    border: inset yellow; 
+    background-color:aliceblue;
+    padding:5px;
+}
+.error {
+    color:red; 
+    font-weight: bold
+}
+.welcomeDiv {
+    text-align:right;
+    color:white;
+    font-weight: bold;
+    overflow: hidden;
+}
+#message {
+    font-size:14px; 
+    font-weight:bold;
+}
+.prompt {
+    text-align: right;
+    padding-right: 5px;
+}
+.inputTable {
+    margin-right: 10px;
+    text-align:left; 
+    background-color:aliceblue;
+    border: ridge yellow; 
+    padding:5px; 
+    color: black;
+}
+#inputArea {
+    display:none;
+    margin-left:55px;
+}
